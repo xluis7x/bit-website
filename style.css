@@ -1,0 +1,276 @@
+/* shared */  
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "titleFont";
+    src: url(../assets/fonts/Merriweather_24pt-SemiBold.ttf);
+}
+@font-face{
+    font-family: "textFont";
+    src: url(../assets/fonts/Nunito-Regular.ttf);
+}
+@font-face{
+    font-family: "italicTextFont";
+    src: url(../assets/fonts/Nunito-Italic.ttf);
+}
+body{
+    background-color: #C9ADA7;
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    background-color: #4A4E69;
+    border-radius: 8px;
+    width: 100%;
+}
+.navbar{
+    position: fixed;
+    width: 99%;
+}
+.bg-img{
+    width: 100%;
+    height: 150px;
+    background-image: url(https://i.pinimg.com/474x/4a/f0/7c/4af07c4d363354ee55a8b080acfcbd66.jpg);
+    background-repeat: repeat;
+    border-radius: 8px;
+}
+nav{
+    background-color: #22223B;
+    color: #F2E9E4;
+    padding: 6px 8px;
+    border-radius: 8px;
+    width: 100%;
+    border-style: double;
+}
+.main{
+    width: 78%;
+    margin:1%;
+}
+.links:hover { 
+    margin: 10px;
+    color: #9A8C98;
+    border-radius: 10px;
+    padding: 10px 12px;
+    font-family: "textFont";
+}
+.links{
+    margin: 10px;
+    padding: 10px 12px;
+    color: #F2E9E4;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "textFont";
+}
+ul {
+    margin: 2px;
+    padding: 0px;
+  }
+ul li {
+    display: inline-block;
+    border-radius: 6px;
+    width: 200px;
+}
+ul li:hover {
+    background: #4A4E69;
+}
+ul li:hover ul {
+    display: block;
+}
+ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+ul li ul li { 
+    background: #4A4E69; 
+    display: block; 
+    border-radius: 6px;
+  }
+ul li ul li a {
+    display:block !important;
+}
+td, th{
+    padding: 5px;
+    text-align: center;
+}
+aside {
+    background-color: #4A4E69;
+    color: #F2E9E4;
+    border-radius: 8px;
+    width: 19%;
+    margin:auto;
+}
+footer{
+    background-color: #22223B;
+    color: #F2E9E4;
+    text-align: right;
+    font-family: "italicTextFont";
+    padding: 10px 12px;
+    font-size: small;
+    border-radius: 8px;
+    width: 100%;
+    border-style: double;
+}  
+.footer{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.footerLinks:hover {
+    background-color:#F2E9E4;
+    color: #22223B;
+    border-radius: 6px;
+    font-family: "titleFont";
+    padding: 8px 10px;
+    margin: 5px;
+}
+.footerLinks {
+    color: #F2E9E4;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "titleFont";
+    margin: 15px;
+    padding: 8px 10x;
+}
+/* index */
+h1{
+    font-family: "titleFont";
+    color: #000000;
+    text-align:left;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-style: italic;
+}
+.main-container{
+    font-size: 23px;
+    color: #22223B;
+    font-family: "textFont";
+    text-align: justify;
+    padding: 18 px;
+    display: inline-block;
+}
+.indexLinks{
+    color: #22223B;
+}
+.indexLinks:hover, .indexLinks:active{
+    color:#F2E9E4;
+}
+.indexLinksLight{
+    color:#F2E9E4;
+}
+.indexLinksLight:hover, .indexLinksLight:active{
+    color:#22223B;
+}
+.lighth{
+    color: #22223B;
+    font-family: "titleFont";
+}
+.darkh{
+    color: #F2E9E4;
+    font-family: "titleFont";
+}
+.iSection1, aside, .contact, .aboutMe{
+    background-color: #4A4E69;
+    color: #F2E9E4;
+    padding: 18px;
+    text-align: center;
+    font-size: 21px;
+    font-family: "textFont";
+    border-radius: 8px; 
+}
+.aside{
+    text-align: justify;
+    font-size: 18px;
+    padding: 0%;
+}
+.skillSection, .projectSection, .profileSection{
+    color:#22223B;
+    font-family: "textFont";
+    font-size: 20px;
+    text-align: justify;
+    display: inline-block;
+    width: 60%;
+}
+.projectSection{
+    text-align: right;
+    margin-left: 16%;
+}
+.skillSection, .profileSection{
+    margin-top: 4%;
+}
+/* skills*/  
+
+/*about me */
+.aboutMeBody{
+    width: 99%;
+}
+.aboutMe{
+    margin: 2%;
+}
+.hobbies{
+    background-color: #4A4E69;
+    color: #F2E9E4;
+    font-family: "titleFont";
+    width: 32%; 
+    height: 20%;
+    box-sizing: border-box;
+    padding: 2%;
+    margin: 1%; 
+    text-align: center;
+    border-radius: 8px; 
+
+}
+.soccer, .dream {
+    color: #22223B;
+    font-family: "titleFont";
+    box-sizing: border-box;
+    width: 30%;
+    height: 20%;
+    padding: 2%;
+    margin: 1%;
+    text-align: center;
+}
+.p{
+    font-family: textFont;
+    font-size: 18px;
+}
+/* projects */  
+.proMain{   
+    width: 100%;
+    background-color: #4A4E69;
+    color: #F2E9E4;
+    font-family: "titleFont";
+    border-radius: 8px; 
+    text-align: center; 
+    margin: 2%;
+}
+/* contact */  
+.contact {
+    width: 100%;
+    margin: 3%;
+}
+/* multimedia */ 
+.london{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 8px;
+}
+.me{
+    width: 22%;
+    float: right;
+    margin: 30px 30px 0 30px;
+    border-radius: 8px;
+}
+.skillIcon, .profileIcon {
+    width: 12%;
+    float: left;
+    margin: 2%;
+}
+.projectIcon {
+    width: 12%; 
+    margin-left: 3%;
+}
+.london{
+    
+}
