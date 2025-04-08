@@ -4,15 +4,15 @@
 }
 @font-face {
     font-family: "titleFont";
-    src: url(../assets/fonts/Merriweather_24pt-SemiBold.ttf);
+    src: url(/assets/fonts/Merriweather_24pt-SemiBold.ttf);
 }
 @font-face{
     font-family: "textFont";
-    src: url(../assets/fonts/Nunito-Regular.ttf);
+    src: url(/assets/fonts/Nunito-Regular.ttf);
 }
 @font-face{
     font-family: "italicTextFont";
-    src: url(../assets/fonts/Nunito-Italic.ttf);
+    src: url(/assets/fonts/Nunito-Italic.ttf);
 }
 body{
     background-color: #C9ADA7;
