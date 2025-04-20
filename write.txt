@@ -1,4 +1,0 @@
-https://xluis7x.github.io/ROCKSTAR-SITE/
-I will introduce you to my first project ever, when I was starting to programming I created this website, I had basic knowledge about HTML and CSS, this was a challenge that my teacher put me to practice, so I created my. A website about my favorite singer, simple but I think it's a decent website for my first time programming. In this section you will find all my projects. In this moment there are HTML, CSS and Figma projects. So let me introduce you with my first projects.
-<a target="_blank" href="https://xluis7x.github.io/ROCKSTAR-SITE/">ROCKSTAR SITEEE.</a>
-https://www.figma.com/design/P9WP2qyQLLBTtjD3yHFqc2/My-First-Project?node-id=0-1&t=NbGLyQypNHI6Pyxm-1 
