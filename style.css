@@ -288,7 +288,7 @@ td, th{
     text-align: center;
     font-family: var(--second-font);
     color: var(--third-color);
-    font-size: 22px;
+    font-size: 20px;
 }
 .midContainer{
     display: grid;
@@ -312,7 +312,7 @@ td, th{
     margin: auto;
     color: var(--second-color);
     font-family: var(--second-font);
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     margin-top: 2%;
     margin-bottom: 1%;
@@ -393,11 +393,13 @@ td, th{
     border-radius: 8px;
     padding: 0.5%;
 }
+
 /* multimedia projects*/ 
 .rocksite, .figma {
     width: 100%;
     border-radius: 8px;
 }
+
 /* contact */  
 .contact {
     width: 100%;
@@ -415,3 +417,254 @@ td, th{
     width: 300px;
     height: 100px;
 }
+
+/* Media queries */
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    /*index*/
+
+    .bg {
+        height: 320px;
+    }
+    .bg-img {
+        width: 40%;
+    }
+    .me {
+        width: 0%;
+    }
+    aside {
+        width: 100%;
+        margin: 2%;
+    }
+    .aside, table {
+        margin: auto;
+        padding: 2%;
+        text-align: center;
+    }
+    .main {
+        width: 100%;
+    }
+    .skillSection, .projectSection, .profileSection {
+        width: 65%;
+        margin-top: 2%;
+    }
+    .projectSection {
+        margin-left: 15%;
+    }
+    .projectIcon, .skillIcon, .profileIcon {
+        width: 15%;
+        margin: 2%;
+    }
+    .projectIcon {
+        margin-bottom: 18%;
+        float: none;
+    }
+
+    /*about me*/
+
+    section{
+        width: 97%;
+        margin: auto;
+    }
+
+    .aboutMeBody     {
+        margin: 2%;
+    }
+     .container {
+        grid-template-columns: 500px;  
+     }
+     .item {
+        margin: 4%;
+        width: 60%;
+        margin-left: 23%;
+     }
+     .film  {
+        grid-template-columns: 300px;
+        align-items: center;
+        justify-content: center;
+     }
+     .imgFilms {
+        grid-template-columns: 300px;
+        gap: 0%;
+        margin: 8%;
+        margin-left: 20%;
+     }
+     .gym {
+        grid-template-columns: 500px;
+        margin: 8%;
+        gap: 0%;
+     }
+     .photos {
+        width: 60%;
+     }
+     .serie {
+        width: 100%;
+     }
+     .series, .lastContainer , .gym {
+        width: 500px;
+        margin: 1%; 
+     }
+     .container, .imgFilms, .film, .midContainer, .lastContainer {
+        align-items: normal; 
+        justify-content: normal;
+     }
+
+     /*projects*/
+
+    div {
+        width: 100%;
+        margin: auto;
+    }
+    .project {
+        grid-template-columns: 480px;
+        margin: 4%;
+    }
+    }
+
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .bg-img {
+        width: 30%;
+    }
+    
+    .projectIcon {
+        margin-bottom: 8%;
+        float: none;
+    }
+
+    /*about me*/
+
+    section {
+        width: 98%;
+    }
+    .container {
+        grid-template-columns: 650px;  
+     }
+     .item {
+        
+        width: 50%;
+        margin-left: 30%;
+     }
+     .film  {
+        grid-template-columns: 400px;
+        align-items: center;
+        justify-content: center;
+     }
+     .imgFilms {
+        grid-template-columns: 400px;
+        gap: 0%;
+        margin: 8%;
+        margin-left: 20%;
+     }
+     .lastContainer {
+        width: 600px;
+        margin: auto;
+        margin-top: 2%;
+     }
+     .midContainer {
+        grid-template-columns: 800px;
+        gap: 0%;
+     }
+    
+    .film  {
+        grid-template-columns: 400px;
+        align-items: center;
+        justify-content: center;
+     }
+     .imgFilms {
+        grid-template-columns: 500px;
+        gap: 0%;
+        margin: 8%;
+        margin-left: 20%;
+     }
+     .lastContainer,.series {
+        width: 700px;
+        margin-top: 2%;
+     }
+     .photos {
+        width: 70%;
+        margin-left: 35%;
+     }
+     .serie {
+        width: 92%;
+     }
+     .films {
+        width: 70%;
+        margin-left: 10%;
+     }
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1200px){
+   
+    .bg{
+        height: 300px;
+    }
+    .bg-img {
+        width: 20%;;
+   }
+   .projectIcon {
+    margin-bottom: 15%;
+    float: none;
+   }
+   .main {
+    width: 70%;
+   }
+   aside{
+    width: 28%;
+   }
+   .me {
+    width: 0%;
+   }
+    /*about me*/
+
+   section {
+     width: 96%;
+   }
+   .container{
+     grid-template-columns: 850px;  
+   }
+    .item {
+      width: 40%;
+      margin-left: 32%;
+    }
+    .midContainer{
+        margin: 0%;
+        margin-left: 0%;
+        gap: 0%;
+    }
+    .imgFilms {
+        margin-left: 17%;
+    }
+    .films {
+        width: 60%;
+    }
+    .series {
+        width: 880px;
+    }
+    .gym {
+        grid-template-columns: 800px;
+        margin: 2%;
+        gap: 0%;
+    }
+    .lastContainer {
+        width: 800px;
+        margin: auto;
+        margin-top: 2%;
+    }
+    .photos {
+        width: 40%;
+        margin: 0%;
+    }
+
+    /*projects*/
+
+    div {
+        width: 100%;
+        margin: auto;
+    }
+    .project {
+        grid-template-columns: 480px;
+        margin: 4%;
+    }
+  }
