@@ -94,7 +94,7 @@ ul li ul li {
     background: var(--main-color); 
     display: block; 
     border-radius: 6px;
-    text-decoration: underline;
+    text-decoration: none;
   }
 ul li ul li a {
     display:block !important;
